@@ -11,7 +11,7 @@ import java.time.Instant;
 @Component
 public class MessagePubSub {
 
-    private final static String TOPIC_TEST = "TEST";
+    private static final String TOPIC_TEST = "TEST";
 
     private final Logger logger = LoggerFactory.getLogger(MessagePubSub.class);
 
